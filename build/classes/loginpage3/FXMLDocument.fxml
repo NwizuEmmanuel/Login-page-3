@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="767.0" styleClass="pane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+     <stylesheets>
+        <URL value="@loginpage3.css" />
+    </stylesheets>
+    <children>
+      <Pane layoutX="176.0" layoutY="78.0" prefHeight="450.0" prefWidth="415.0">
+         <children>
+            <Pane prefHeight="100.0" prefWidth="416.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="431.0" opacity="0.71" stroke="GREY" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="0.0" strokeWidth="10.0" width="406.0" />
+                  <VBox spacing="4.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="85.0" prefWidth="416.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="153.0" style="-fx-font-size: 25px; -fx-text-fill: lightred;" text="Login Here" textAlignment="CENTER" textFill="#9a1212" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="85.0" prefWidth="416.0">
+                           <children>
+                              <VBox prefHeight="85.0" prefWidth="402.0">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Label contentDisplay="CENTER" prefHeight="47.0" prefWidth="153.0" style="-fx-font-size: 13px; -fx-text-fill: WHITE; -fx-font-style: italic;" text="USERNAME" textAlignment="CENTER" textFill="#9a1212" wrapText="true" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="52.0" prefWidth="402.0" style="-fx-background-color: white; -fx-background-radius: 3 3 0 0;">
+                                       <padding>
+                                          <Insets left="10.0" />
+                                       </padding>
+                                       <children>
+                                          <ImageView>
+                                             <image>
+                                                <Image url="@icons8_name_24px_4.png" />
+                                             </image>
+                                          </ImageView>
+                                          <JFXTextField focusColor="WHITE" prefHeight="45.0" prefWidth="312.0" promptText="Username" unFocusColor="WHITE" HBox.hgrow="ALWAYS">
+                                             <HBox.margin>
+                                                <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+                                             </HBox.margin>
+                                          </JFXTextField>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="99.0" prefHeight="85.0" prefWidth="416.0">
+                           <children>
+                              <VBox focusTraversable="true" prefHeight="85.0" prefWidth="402.0">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT">
+                                       <children>
+                                          <Label contentDisplay="CENTER" prefHeight="47.0" prefWidth="153.0" style="-fx-font-size: 13px; -fx-text-fill: WHITE; -fx-font-style: italic;" text="PASSWORD" textAlignment="CENTER" textFill="#9a1212" />
+                                       </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="52.0" prefWidth="402.0" style="-fx-background-color: white; -fx-background-radius: 3 3 0 0;">
+                                       <padding>
+                                          <Insets left="10.0" />
+                                       </padding>
+                                       <children>
+                                          <ImageView>
+                                             <image>
+                                                <Image url="@icons8_unlock_24px_1.png" />
+                                             </image>
+                                          </ImageView>
+                                          <JFXPasswordField focusColor="WHITE" promptText="Password" unFocusColor="WHITE" HBox.hgrow="ALWAYS">
+                                             <HBox.margin>
+                                                <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+                                             </HBox.margin>
+                                          </JFXPasswordField>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="188.0" prefHeight="40.0" prefWidth="416.0">
+                           <children>
+                              <VBox prefHeight="66.0" prefWidth="396.0">
+                                 <children>
+                                    <HBox alignment="CENTER" spacing="90.0">
+                                       <children>
+                                          <Label contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="47.0" prefWidth="153.0" style="-fx-font-size: 13px; -fx-text-fill: WHITE;" text="Forgot Password?" textFill="#9a1212" HBox.hgrow="ALWAYS" />
+                                          <JFXCheckBox style="-fx-text-fill: white;" text="Remember me" HBox.hgrow="ALWAYS" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <JFXButton buttonType="RAISED" contentDisplay="CENTER" prefHeight="32.0" prefWidth="358.0" ripplerFill="WHITE" style="-fx-background-color: #FB3954; -fx-background-radius: 5 5 5 5;" text="LOGIN" textAlignment="JUSTIFY" HBox.hgrow="ALWAYS" />
+                           </children>
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER" layoutX="10.0" layoutY="321.0">
+                           <children>
+                              <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account?" />
+                              <Text fill="BLUE" layoutX="205.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Register" />
+                           </children>
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
